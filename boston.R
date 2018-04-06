@@ -40,8 +40,7 @@ plot(data[,c(3,5,6,11,13,14)],pch=3)
 
 
 library(caret)
-#nzv <- nearZeroVar(data, saveMetrics = TRUE)
-#sum(nzv$nzv)
+
 data1<-data[,-c(14:15)]
 data
 house.scale<-data.frame()
